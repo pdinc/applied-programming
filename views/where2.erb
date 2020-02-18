@@ -29,8 +29,11 @@
         height="450"
         frameborder="0" style="border:0"
         src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCtovsQvkIUWlNqtYwXY87gEd4ZSmJEhMw
-          &q=42.0574063,-87.6722787&zoom=6" allowfullscreen>
+          &q=<%= @lat %>,<%= @long %>&zoom=6" allowfullscreen>
       </iframe>
+    </div>
+    <div class = "container mt-5">
+        <a href="/" class="btn btn-primary">Go Again!</a> 
     </div>
 
     <!-- Optional JavaScript -->

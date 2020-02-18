@@ -6,7 +6,7 @@ ForecastIO.api_key = "02dbcee29621252b05da7abab52d2a8e"
 # do the heavy lifting, use Global Hub lat/long
 # forecast = ForecastIO.forecast(42.0574063,-87.6722787).to_hash
 
-# Screw the Hub, Wieboldt for life
+# Screw the Hub, Wieboldt for life!
 forecast = ForecastIO.forecast(41.895975,-87.618772).to_hash
 
 # pp forecast
